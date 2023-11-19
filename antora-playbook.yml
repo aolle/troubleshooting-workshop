@@ -1,0 +1,21 @@
+site:
+  title: Mastering Web Troubleshooting
+  url: https://olleb.com/troubleshooting-workshop
+  start_page: troubleshooting-workshop::index.adoc
+content:
+  sources:
+  - url: https://github.com/aolle/troubleshooting-workshop.git
+    branches: HEAD
+#    branches: [main, v2.0, v1.0]
+    edit_url: false
+    start_path: docs
+asciidoc:
+  attributes:
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: ''
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
